@@ -1,3 +1,8 @@
+---
+layout: default
+title: Significant Wave Height Forecasting
+---
+
 # Significant Wave Height Forecasting  
 ## Comparative Machine Learning Approaches for Ocean Wave Prediction
 
