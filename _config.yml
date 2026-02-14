@@ -1,4 +1,4 @@
-theme: just-the-docs
+theme: minima
 title: Significant Wave Height Forecasting
 description: Comparative Machine Learning Approaches for Ocean Wave Prediction
 markdown: kramdown
