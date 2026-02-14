@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>
+      Significant Wave Height Forecasting THIS PAGE IS A WORK IN PROGRESS
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="nav-logo">Wave Forecasting Project</div>
+      <div class="nav-links">
+        <a href="#overview">Overview</a>
+        <a href="#methodology">Methodology</a>
+        <a href="#results">Results</a>
+        <a href="#conclusion">Conclusion</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <h1>Significant Wave Height Forecasting</h1>
+      <p>
+        Comparative evaluation of Linear Regression, Random Forest, XGBoost, and
+        LSTM models for short-term ocean wave prediction.
+      </p>
+
+      <div class="buttons">
+        <a href="https://github.com/YOUR_USERNAME/YOUR_REPO" target="_blank"
+          >GitHub</a
+        >
+        <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/" target="_blank"
+          >LinkedIn</a
+        >
+      </div>
+    </section>
+
+    <section id="overview">
+      <h2>Project Overview</h2>
+      <p>
+        This project investigates short-term forecasting of Significant Wave
+        Height (WVHT) using multivariate buoy data under strict chronological
+        validation.
+      </p>
+    </section>
+
+    <section id="methodology">
+      <h2>Methodology</h2>
+      <p>
+        Chronological 80–20 train-test split was used to prevent data leakage.
+      </p>
+      <p>
+        <em>WVHT<sub>t</sub> = WVHT<sub>t-1</sub></em>
+      </p>
+
+      <ul>
+        <li>Linear Regression</li>
+        <li>Random Forest</li>
+        <li>XGBoost</li>
+        <li>LSTM (24-hour window)</li>
+      </ul>
+    </section>
+
+    <section id="results">
+      <h2>Results</h2>
+
+      <table>
+        <tr>
+          <th>Model</th>
+          <th>R² Score</th>
+        </tr>
+        <tr>
+          <td>Linear Regression</td>
+          <td>0.9599</td>
+        </tr>
+        <tr>
+          <td>Random Forest</td>
+          <td>0.9650</td>
+        </tr>
+        <tr>
+          <td>XGBoost</td>
+          <td><strong>0.9698</strong></td>
+        </tr>
+        <tr>
+          <td>LSTM</td>
+          <td>0.8875</td>
+        </tr>
+      </table>
+
+      <img src="assets/images/rmse_comparison.png" alt="Model Comparison" />
+    </section>
+
+    <section id="conclusion">
+      <h2>Conclusion</h2>
+      <p>Work in progress</p>
+    </section>
+
+    <footer>© 2026 Partha Basak</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
