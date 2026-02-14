@@ -98,7 +98,7 @@ The LSTM model was trained on scaled multivariate sequences.
 
 ## Model Comparison
 
-![RMSE Comparison](assets/images/rmse_comparison.png)
+![RMSE Comparison](assets/images/rmse.png)
 
 ---
 
